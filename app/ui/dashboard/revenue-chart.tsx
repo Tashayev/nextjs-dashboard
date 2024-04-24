@@ -1,6 +1,10 @@
 import { generateYAxis } from '@/app/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
+<<<<<<< HEAD
 // import { lutanist } from '@/app/ui/fonts';
+=======
+//import { lutanist } from '@/app/ui/fonts';
+>>>>>>> 5602ce0c0b648942bc3973e3084f87ec293801bb
 import { Revenue } from '@/app/lib/definitions';
 
 // This component is representational only.
@@ -25,9 +29,15 @@ export default async function RevenueChart({
 
   return (
     <div className="w-full md:col-span-4">
+<<<<<<< HEAD
       {/*<h2 className={`${lutanist.className} mb-4 text-xl md:text-2xl`}>*/}
       {/*  Recent Revenue*/}
       {/*</h2>*/}
+=======
+      {/*<h2 className={`${lutanist.className} mb-4 text-xl md:text-2xl`}>
+        Recent Revenue
+      </h2>*/}
+>>>>>>> 5602ce0c0b648942bc3973e3084f87ec293801bb
       {/* NOTE: comment in this code when you get to this point in the course */}
 
       {/* <div className="rounded-xl bg-gray-50 p-4">
